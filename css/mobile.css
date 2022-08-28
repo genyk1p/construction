@@ -1,0 +1,12 @@
+@media (min-width:501px) {
+    .content nav input[type="checkbox"], .content nav > label {
+        display:none;
+    }
+}
+
+@media (max-width: 1659px) {
+    .footer_links {
+        width: 90%;
+        border: 10px solid green;
+    }
+}
