@@ -3,10 +3,223 @@
         display:none;
     }
 }
-
 @media (max-width: 1659px) {
-    .footer_links {
-        width: 90%;
-        border: 10px solid green;
+    footer .footer_links {
+        width: 70%;
     }
 }
+@media (max-width: 1421px) {
+    .content {
+        width: 97%;
+    }
+}
+@media (max-width: 1300px) {
+    .content nav .top_icon_picture {
+        height: 120px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    footer .footer_links {
+        width: 90%;
+    }
+}
+@media (max-width: 1147px) {
+    .content nav .top_icon_picture {
+        display:none;
+}
+@media (max-width: 1019px) {
+    footer .footer_links div {
+        padding: 20px 80px;
+    }
+    .content nav {
+        display: block;
+    }
+    .content nav form {
+        margin-bottom: 10px;
+    }
+    .content_bottom .content_bottom_slider a img {
+        height: 100px;
+    }
+    .botrom_nav ul li a {
+        width: 50px;
+    }
+    .content .top_baner .slider .baner_picture {
+        height: 200px;
+    }
+    .content .top_baner .slider .baner_picture p {
+        font-size: 16px;
+        padding: 7px;
+        left: 15px;
+        bottom: 15px;
+    }
+    .content_center section aside {
+        display: none;
+    }
+    .content .content_center .right .wraper{
+        justify-content: space-between;
+    }
+    .content .content_center .right .wraper .wraped {
+        flex-basis: 48%;
+    }
+    .content_center section {
+        flex-basis: 35%;
+    }
+}
+@media (max-width: 873px) {
+    footer .footer_links div {
+        padding: 20px 60px;
+    }
+    footer .footer_links {
+        width: 95%;
+    }
+    .head_wraper div {
+        width: 100%;
+        justify-content: center;
+        
+    }
+    header .head_wraper div img{
+        height: 50px;
+    }
+     .botrom_nav ul li a {
+        width: 40px;
+    }
+    .botrom_nav ul li {
+        padding: 0 30px;
+    }  
+}
+@media (max-width: 783px) {
+    .head_wraper div p {
+        font-size: 14px;
+        flex-basis: 60%;
+    }
+    header .head_wraper div img{
+        height: 40px;
+    }
+    .botrom_nav ul li a {
+        width: 35px;
+    }
+    .content nav > ul li a {
+        font-size: 20px;
+    }
+    .content .content_center {
+        display: block;
+    }
+    .content_center section h2 {
+        margin-bottom: 10px; 
+    }
+    .content_center section .article1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  
+    }
+    .content .content_center section .article1 article {
+       margin: 0px 0px; 
+       justify-content: space-between;
+       flex-basis: 49%;
+       padding: 0px;
+    }
+    .content_center section .article1 article img {
+       border-radius: 100%;
+       padding-right: 10px;
+       height: 80px;
+       margin:0px
+    }
+     .content_bottom .content_bottom_slider div {
+        display: flex;
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 717px) {
+    footer .footer_links div {
+        padding: 20px 40px;
+    }
+    .botrom_nav {
+        display: none;
+    }
+}
+@media (max-width: 671px) {
+    footer .footer_links {
+        display: block;
+        margin:0px;
+        width: 100%;
+    }
+    footer {
+        background: white;
+
+    }
+    footer .footer_links div {
+        padding: 0px 30px;
+        margin: 0px;
+    }
+    footer .footer_links div a{
+        width: 70%;
+        margin: auto;
+    }
+    .content .content_center .right .wraper .wraped {
+        flex-basis: 100%;
+
+    }
+    .head_wraper div {
+        height: 100%;
+        justify-content: center;
+        display: block;
+        
+    }
+    .content nav {
+        position: static;
+    }
+    .content nav input[type="checkbox"] {
+        display: none;
+    }
+    .content nav input[type="checkbox"]:checked ~ ul{
+        margin-top: 0vw;
+    }
+    .content nav label {
+        display: inline-block;
+        position: fixed;
+        right: 15px;
+        top: 10px;
+        z-index: 10;
+        color: blue;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .content nav ul li:hover .submenu {
+        display: none;
+    }
+    .content nav ul {
+        display: block;
+        z-index: 5;
+        background: #19a2ac;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        margin-top: -200vw;
+        transition: 0.5s;
+        
+    }
+    .content nav ul li {
+        width: 70%;
+        margin: 30px auto;
+    }
+    .content nav ul li a {
+        color: white;
+        font-size: 25px;
+    }
+    .content nav form {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+

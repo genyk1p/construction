@@ -287,24 +287,34 @@ header {
 .botrom_nav {
     background: #19a2ac;
     margin-top: 20px;
-}
-.botrom_nav ul {
-    margin: 0 auto;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items:center;
+}
+.botrom_nav ul {
+    height: 100%;
+    margin: 0 auto;
     width: 60%;
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .botrom_nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0px 40px;
     height: 100%;
-    padding: 15px 60px;
     
 }
 .botrom_nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 16px
+    font-size: 16px;
+    width: 80px;
+    white-space: nowrap;
 }
 .botrom_nav ul li:hover{
     background: #128991;
